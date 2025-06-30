@@ -39,3 +39,16 @@ City Explorer is a MERN Stack-based web app designed to help users **discover am
 
 ## 📁 Project Structure (Backend)
 
+
+---
+
+## 🧪 Getting Started (For Developers)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/city-explorer.git
+cd city-explorer
+
+
+
