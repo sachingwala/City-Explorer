@@ -1,0 +1,62 @@
+.explore-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 6%;
+    background: #1d1b1b;
+    color: white;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .explore-hero-left {
+    flex: 1;
+    max-width: 550px;
+  }
+  
+  .explore-hero-left h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: #f4e9dc;
+  }
+  
+  .explore-hero-left p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #ccc;
+  }
+  
+  .explore-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .explore-filters button {
+    background-color: #5a3e36;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .explore-filters button:hover {
+    background-color: #7c5c4c;
+  }
+  
+  .explore-hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .explore-hero-right img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  

@@ -1,0 +1,27 @@
+.category-filter {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  .filter-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+    color: #4E342E;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .filter-button:hover {
+    background-color: #e0d7cf;
+  }
+  
+  .filter-button.active {
+    background-color: #4E342E;
+    color: white;
+  }
+  

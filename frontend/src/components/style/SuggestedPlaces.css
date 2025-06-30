@@ -1,0 +1,126 @@
+/* .suggested-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+} */
+
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.category-buttons button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-buttons button:hover {
+  background-color: #eee;
+}
+
+.category-buttons .active {
+  background-color: #4E342E;
+  color: white;
+  font-weight: bold;
+}
+
+
+.suggested-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 24px;
+  font-weight: bold;
+  color: #4E342E;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.explore {
+  background-color: #4e342e;
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.explore:hover {
+  background-color: #6d4c41;
+}
+
+
+/* Scrollable card layout */
+.place-cards-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px 0;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
+/* Optional: nice scrollbars for WebKit browsers */
+.place-cards-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.place-cards-scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 20px;
+}
+
+.place-card {
+  flex: 0 0 260px;
+  scroll-snap-align: start;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  padding: 16px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.place-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.15);
+}
+
+.place-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  margin-bottom: 12px;
+}
+
+.see-more-container {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.see-more-btn {
+  padding: 10px 24px;
+  background-color: #4E342E;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.see-more-btn:hover {
+  background-color: #3e2a23;
+}

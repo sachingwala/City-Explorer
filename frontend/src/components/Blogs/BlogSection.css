@@ -1,0 +1,45 @@
+.blog-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem 1rem;
+  }
+  
+  .blog-card {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 1.5rem 0;
+  }
+  
+  .blog-date {
+    width: 100px;
+    font-weight: bold;
+    color: #4E342E;
+  }
+  
+  .blog-content {
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+  }
+  
+  .blog-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .blog-info {
+    flex: 1;
+  }
+  
+  .read-more-btn {
+    margin-top: 0.5rem;
+    display: inline-block;
+    color: #fff;
+    background-color: #4E342E;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
